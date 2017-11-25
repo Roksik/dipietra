@@ -3,6 +3,10 @@
     padding: 0;
 }
 
+.top {
+    outline: 1px solid blue;
+}
+
 .container {
     width: 960px;
     margin: 0 auto;
@@ -18,7 +22,7 @@
     display: inline-block;
     outline: 1px solid black;
     vertical-align: top;
-    margin: 43px 0 0 30px;
+    margin: 39px 0 0 30px;
 }
 
 .contact {
@@ -28,7 +32,7 @@
     float: right;
     font-family: Arial, sans-serif;
     color: #221f1b;
-    margin-top: 35px;
+    margin-top: 39px;
 }
 
 .phone {
@@ -50,4 +54,28 @@
     font-family: Arial, sans-serif;
     color: #221f1b;
     font-size: 17px;
+
+    box-sizing: border-box;
+    height: 44px;
+    width: 227px;
+    margin-top: 25px;
+    padding: 6px 0 0 32px;
+
+    text-align: center;
+
+    background-color: #f8c300;
+    position: relative;
+}
+
+.btn::before {
+    position: absolute;
+    top: 14px;
+    left: 32px;
+
+    box-sizing: border-box;
+    width: 22px;
+    height: 15px;
+
+    content: '';
+    background: url('./images/phone.png') no-repeat;
 }
