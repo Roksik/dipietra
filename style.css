@@ -10,12 +10,16 @@
 .container {
     width: 960px;
     margin: 0 auto;
+    position: relative;
 }
 
 .logo {
     display: inline-block;
     outline: 1px solid red;
     margin-top: 21px;
+
+    width: 201px;
+    height: 209px;
 }
 
 .block {
@@ -58,13 +62,13 @@
     box-sizing: border-box;
     height: 44px;
     width: 227px;
-    margin-top: 25px;
     padding: 6px 0 0 32px;
 
     text-align: center;
 
     background-color: #f8c300;
     position: relative;
+    border-bottom: 3px solid #fad240;
 }
 
 .btn::before {
@@ -79,3 +83,56 @@
     content: '';
     background: url('./images/phone.png') no-repeat;
 }
+
+.top_line {
+    width: 100%;
+    height: 49px;
+    background-color: #383431;
+
+    margin-top: -53px;
+}
+
+.left_line {
+    position: absolute;
+    top: 0;
+    right: 100%;
+
+    box-sizing: border-box;
+    width: 100vh;
+    height: 49px;
+
+    background-color: #f8c300;
+    margin-right: -30px
+}
+
+.left_line::before {
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 49px 0 0 49px;
+    border-color: transparent transparent transparent #f8c300;
+    content: '';
+    top: 0;
+    right: -49px;
+    position: absolute;
+}
+
+.menu_top li {
+    display: inline-block;
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    margin: 16px 18px;
+    box-sizing: border-box;
+}
+
+.menu_top {
+    margin-left: 230px;
+}
+
+.menu_top a {
+
+}
+
+
+
