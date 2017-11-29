@@ -133,5 +133,43 @@
     background-color: #221f1b;
 }
 
+.slider__list li {
+    list-style-type: none;
+}
 
+.slider {
+    position: relative;
+    margin-top: 18px;
+}
 
+.slider__prev,
+.slider__next{
+
+    width: 45px;
+    height: 90px;
+    position: absolute;
+
+    border: none;
+}
+
+.slider__prev {
+    background: url('./images/arrow_left.png') no-repeat;
+    margin: 150px 0 0 -45px;
+}
+
+.slider__next {
+    background: url('./images/arrow_right.png') no-repeat;
+}
+
+.service {
+    display: inline-block;
+    margin-top: 20px;
+}
+
+.service_name {
+    color: #ffffff;
+    font-family: Arial, sans-serif;
+    font-size: 18px;
+    text-align: center;
+    margin-top: -30px;
+}
