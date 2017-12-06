@@ -4,6 +4,9 @@
     <meta charset="UTF-8">
     <link href="style.css" type="text/css" rel="stylesheet">
     <title>dipietra</title>
+    <script type="text/javascript" src="./jquery-3.2.1.js"></script>
+    <script type="text/javascript" src="./jquery.jcarousel.js"></script>
+    <script type="text/javascript" src="./script.js"></script>
 </head>
 <body>
     <div class="container">
@@ -25,9 +28,27 @@
     <div class="top_line">
         <div class="container">
             <div class="left_line"></div>
+            <div class="right_line"></div>
             <ul class="menu_top">
                 <li>
-                    <a href="javascript:">О Компании</a>
+                    <a href="javascript:">О Компании </a>
+                    <ul class="submenu">
+                        <li>
+                            <a href="javascript:">О Компании</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">Новости</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">Наши работы</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">Материалы</a>
+                        </li>
+                        <li>
+                            <a href="javascript:">Контакты</a>
+                        </li>
+                    </ul>
                 </li>
                 <li>
                     <a href="javascript:">Новости</a>
@@ -45,12 +66,19 @@
         </div>
     </div>
     <div class="container">
-        <div class="slider">
-            <button class="slider__prev"></button>
-            <button class="slider__next"></button>
+        <div class="slider-container">
+            <button class="slider__prev jcarousel-prev"></button>
+            <button class="slider__next jcarousel-next"></button>
+            <div class="slider jcarousel">
                 <ul class="slider__list">
-                    <li class="slider__list-item active"><img src="images/kitchen_banner.jpg" /></li>
+                        <li class="slider__list-item"><img src="images/kitchen_banner.jpg" /></li>
+                        <li class="slider__list-item"><img src="images/kitchen_banner.jpg" /></li>
+                        <li class="slider__list-item"><img src="images/kitchen_banner.jpg" /></li>
+                        <li class="slider__list-item"><img src="images/kitchen_banner.jpg" /></li>
+                        <li class="slider__list-item"><img src="images/kitchen_banner.jpg" /></li>
                 </ul>
+            </div>
+            <ul class="bricks jcarousel-pagination"></ul>
         </div>
         <div class="menu_pic">
             <div class="service">
