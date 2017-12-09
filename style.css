@@ -253,7 +253,10 @@ button:focus {
 
 .service {
     display: inline-block;
-    margin: 20px 28px 0 0;
+    margin: 20px 26px 23px 0;
+    width: 220px;
+    height: 170px;
+    position: relative;
 }
 
 .service:last-child {
@@ -273,9 +276,109 @@ button:focus {
     padding-right: 26px;
 }
 
-.service_name::after {
-    background: url('./images/arrow_right.png') no-repeat;
+.service::before {
+    background: url('./images/banner_bottom.png') no-repeat;
+    position: absolute;
+    bottom: 0;
+    left: 0;
+
+    box-sizing: border-box;
+    width: 220px;
+    height: 55px;
+
+    content: '';
 }
+
+.middle {
+    background-color: #f3f3f3;
+    padding-top: 26px;
+}
+
+.information {
+    display: inline-block;
+    width: 219px;
+    vertical-align: top;
+    outline: 1px solid red;
+}
+
+.info_top,
+.info_bottom {
+    background-color: #ffffff;
+    outline: 1px solid green;
+    padding: 15px 18px;
+}
+
+.info_top {
+    margin-bottom: 30px;
+}
+
+.info-header {
+    font-family: Arial, sans-serif;
+    font-size: 20px;
+    position: relative;
+    padding-bottom: 30px;
+}
+
+.info-header::after {
+    background: url('./images/lines.png') no-repeat;
+    position: absolute;
+    top: 32px;
+    left: -24px;
+
+    box-sizing: border-box;
+    width: 236px;
+    height: 16px;
+
+    content: '';
+}
+
+.data {
+   margin: 34px 0 16px 0;
+}
+
+.news-topic {
+}
+
+.new-pic {
+    outline: 8px solid #f1f1f1;
+    width: 182px;
+    height: 181px;
+    margin: 11px 0;
+}
+
+.description {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    color: #221f1b;
+    padding: 10px 0 7px;
+}
+
+
+
+.article {
+    display: inline-block;
+    width: 630px;
+    outline: 1px solid blue;
+    margin-left: 47px;
+}
+
+h1 {
+    text-transform: uppercase;
+    margin: 10px 0 45px;
+    outline: 1px solid red;
+}
+
+h2 {
+    text-transform: uppercase;
+    color: #f8c300;
+    outline: 1px solid green;
+}
+
+
+
+
+
+
 
 .jcarousel {
     position: relative;
