@@ -3,8 +3,6 @@
   <component name="ChangeListManager">
     <list default="true" id="b536aaff-fa17-4ed3-8f8b-4c4210649c7c" name="Default" comment="">
       <change type="MODIFICATION" beforePath="$PROJECT_DIR$/.idea/workspace.xml" afterPath="$PROJECT_DIR$/.idea/workspace.xml" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/Index.html" afterPath="$PROJECT_DIR$/Index.html" />
-      <change type="MODIFICATION" beforePath="$PROJECT_DIR$/style.css" afterPath="$PROJECT_DIR$/style.css" />
     </list>
     <ignored path="$PROJECT_DIR$/.tmp/" />
     <ignored path="$PROJECT_DIR$/temp/" />
@@ -21,8 +19,8 @@
       <file leaf-file-name="Index.html" pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/Index.html">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="144">
-              <caret line="101" column="6" lean-forward="true" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+            <state relative-caret-position="-47">
+              <caret line="94" column="10" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
               <folding />
             </state>
           </provider>
@@ -31,8 +29,8 @@
       <file leaf-file-name="style.css" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/style.css">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="84">
-              <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+            <state relative-caret-position="21">
+              <caret line="314" column="0" lean-forward="true" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
               <folding />
             </state>
           </provider>
@@ -75,8 +73,8 @@
         <option value="$PROJECT_DIR$/jquery.jcarousel.js" />
         <option value="$PROJECT_DIR$/jquery-3.2.1.js" />
         <option value="$PROJECT_DIR$/script.js" />
-        <option value="$PROJECT_DIR$/Index.html" />
         <option value="$PROJECT_DIR$/style.css" />
+        <option value="$PROJECT_DIR$/Index.html" />
       </list>
     </option>
   </component>
@@ -180,12 +178,12 @@
       <workItem from="1511980597707" duration="3563000" />
       <workItem from="1512063586347" duration="1894000" />
       <workItem from="1512234304842" duration="14367000" />
-      <workItem from="1512487127663" duration="20079000" />
+      <workItem from="1512487127663" duration="20398000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="73808000" />
+    <option name="totallyTimeSpent" value="74127000" />
   </component>
   <component name="TodoView">
     <todo-panel id="selected-file">
@@ -573,16 +571,16 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/style.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" lean-forward="false" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
+        <state relative-caret-position="21">
+          <caret line="314" column="0" lean-forward="true" selection-start-line="314" selection-start-column="0" selection-end-line="314" selection-end-column="0" />
           <folding />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/Index.html">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="144">
-          <caret line="101" column="6" lean-forward="true" selection-start-line="101" selection-start-column="6" selection-end-line="101" selection-end-column="6" />
+        <state relative-caret-position="-47">
+          <caret line="94" column="10" lean-forward="false" selection-start-line="94" selection-start-column="10" selection-end-line="94" selection-end-column="10" />
           <folding />
         </state>
       </provider>
