@@ -292,6 +292,7 @@ button:focus {
 .middle {
     background-color: #f3f3f3;
     padding-top: 26px;
+    outline: 1px solid deeppink;
 }
 
 .information {
@@ -354,12 +355,18 @@ button:focus {
 }
 
 
-
 .article {
     display: inline-block;
-    width: 630px;
+    width: 688px;
     outline: 1px solid blue;
     margin-left: 47px;
+}
+
+.article p {
+    outline: 1px solid blue;
+    margin-bottom: 29px;
+    font-family: Arial, sans-serif;
+    font-size: 14px;
 }
 
 h1 {
@@ -372,6 +379,11 @@ h2 {
     text-transform: uppercase;
     color: #f8c300;
     outline: 1px solid green;
+    margin-bottom: 22px;
+}
+
+h4 {
+    outline: 1px solid purple;
 }
 
 
