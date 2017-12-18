@@ -1,28 +1,36 @@
-*
-{
+* {
     box-sizing: border-box;
     margin: 0;
     padding: 0;
 }
 
+p,
+h1,
+h2,
+h3 {
+    margin: 0;
+}
+
 a:active,
 a:focus,
 button:active,
-button:focus
-{
+button:focus {
     outline: none;
 }
 
-.container
-{
+button:hover,
+a:hover {
+    cursor: pointer;
+}
+
+.container {
     position: relative;
 
     width: 960px;
     margin: 0 auto;
 }
 
-.logo
-{
+.logo {
     display: inline-block;
 
     width: 201px;
@@ -30,8 +38,7 @@ button:focus
     margin-top: 21px;
 }
 
-.block
-{
+.block {
     display: inline-block;
 
     margin: 39px 0 0 30px;
@@ -39,32 +46,37 @@ button:focus
     vertical-align: top;
 }
 
-.contact
-{
+.contact {
     font-family: Arial, sans-serif;
 
     display: inline-block;
+
+    vertical-align: top;
+}
+
+.contact_top {
     float: right;
 
     margin-top: 39px;
 
-    vertical-align: top;
-
     color: #221f1b;
 }
 
-.phone
-{
+.contact_bottom {
+    margin: 55px 0 0 35px;
+
+    color: #f8c300;
+}
+
+.phone {
     font-size: 30px;
 }
 
-.address
-{
+.address {
     font-size: 15px;
 }
 
-.theme
-{
+.theme {
     font-family: Arial, sans-serif;
     font-size: 15px;
 
@@ -73,8 +85,13 @@ button:focus
     color: #221f1b;
 }
 
-.btn
-{
+button a {
+    text-decoration: none;
+
+    color: #000;
+}
+
+.btn {
     font-family: Arial, sans-serif;
     font-size: 17px;
 
@@ -92,8 +109,7 @@ button:focus
     background-color: #f8c300;
 }
 
-.btn::before
-{
+.btn::before {
     position: absolute;
     top: 14px;
     left: 32px;
@@ -107,16 +123,17 @@ button:focus
     background: url('./images/phone.png') no-repeat;
 }
 
-.top_line
-{
+.line {
     box-sizing: border-box;
     width: 100%;
     height: 50px;
+}
+
+.top_line {
     margin-top: -54px;
 }
 
-.left_line
-{
+.left_line {
     position: absolute;
     top: 0;
     right: 100%;
@@ -129,8 +146,18 @@ button:focus
     background-color: #f8c300;
 }
 
-.left_line::before
-{
+.left_line_bottom {
+    position: absolute;
+    bottom: 0;
+
+    box-sizing: border-box;
+    width: 100%;
+    height: 40px;
+
+    background-color: #f8c300;
+}
+
+.left_line::before {
     position: absolute;
     top: 0;
     right: -49px;
@@ -145,8 +172,7 @@ button:focus
     border-color: transparent transparent transparent #f8c300;
 }
 
-.right_line
-{
+.right_line {
     position: absolute;
     top: 0;
     left: 100%;
@@ -158,8 +184,7 @@ button:focus
     background-color: #383431;
 }
 
-.menu_top::before
-{
+.menu::before {
     position: absolute;
     top: 0;
     left: -49px;
@@ -174,8 +199,7 @@ button:focus
     border-color: transparent transparent #383431 transparent ;
 }
 
-.menu_top > li
-{
+.menu > li {
     font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 49px;
@@ -191,8 +215,7 @@ button:focus
     color: #fff;
 }
 
-.menu_top
-{
+.menu {
     position: relative;
     z-index: 1;
 
@@ -202,8 +225,7 @@ button:focus
     background-color: #383431;
 }
 
-.submenu
-{
+.submenu {
     position: absolute;
     left: 0;
 
@@ -217,8 +239,7 @@ button:focus
     background-color: #221f1b;
 }
 
-.submenu a
-{
+.submenu a {
     font-size: 14px;
 
     white-space: nowrap;
@@ -227,38 +248,32 @@ button:focus
     color: #f8c300;
 }
 
-.menu_top li:hover .submenu
-{
+.menu li:hover .submenu {
     display: block;
 }
 
-.menu_top > li > a
-{
+.menu > li > a {
     text-decoration: none;
 
     color: #fff;
 }
 
-.menu_top li:hover
-{
+.menu li:hover {
     background-color: #221f1b;
 }
 
-.slider__list li
-{
+.slider__list li {
     list-style-type: none;
 }
 
-.slider
-{
+.slider {
     position: relative;
 
     margin-top: 18px;
 }
 
 .slider__prev,
-.slider__next
-{
+.slider__next {
     position: absolute;
 
     width: 45px;
@@ -267,24 +282,21 @@ button:focus
     border: none;
 }
 
-.slider__prev
-{
+.slider__prev {
     top: 150px;
     left: -45px;
 
     background: url('./images/arrow_left.png') no-repeat;
 }
 
-.slider__next
-{
+.slider__next {
     top: 150px;
     right: -45px;
 
     background: url('./images/arrow_right.png') no-repeat;
 }
 
-.bricks
-{
+.bricks {
     font-size: 0;
 
     position: absolute;
@@ -295,18 +307,15 @@ button:focus
     text-align: center;
 }
 
-.active
-{
+.active {
     background-color: #fefefe;
 }
 
-.slider-container
-{
+.slider-container {
     position: relative;
 }
 
-.bricks a
-{
+.bricks a {
     display: inline-block;
 
     width: 27px;
@@ -318,13 +327,11 @@ button:focus
     border: 3px solid #fefefe;
 }
 
-.bricks a:last-child
-{
+.bricks a:last-child {
     margin-right: 0;
 }
 
-.service
-{
+.service {
     position: relative;
 
     display: inline-block;
@@ -334,18 +341,15 @@ button:focus
     margin: 20px 26px 23px 0;
 }
 
-.service:last-child
-{
+.service:last-child {
     margin-right: 0;
 }
 
-.menu_pic
-{
+.menu_pic {
     font-size: 0;
 }
 
-.service_name
-{
+.service_name {
     font-family: Arial, sans-serif;
     font-size: 18px;
 
@@ -360,8 +364,7 @@ button:focus
     color: #fff;
 }
 
-.service::before
-{
+.service::before {
     position: absolute;
     bottom: 0;
     left: 0;
@@ -375,15 +378,13 @@ button:focus
     background: url('./images/banner_bottom.png') no-repeat;
 }
 
-.middle
-{
-    padding-top: 26px;
+.middle {
+    padding: 26px 0 20px;
 
     background-color: #f3f3f3;
 }
 
-.information
-{
+.information {
     display: inline-block;
 
     width: 219px;
@@ -391,21 +392,18 @@ button:focus
     vertical-align: top;
 }
 
-.info_top,
-.info_bottom
-{
+.info_first,
+.info_second {
     padding: 15px 18px;
 
     background-color: #fff;
 }
 
-.info_top
-{
+.info_first {
     margin-bottom: 30px;
 }
 
-.info-header
-{
+.info-header {
     font-family: Arial, sans-serif;
     font-size: 20px;
 
@@ -414,8 +412,7 @@ button:focus
     padding-bottom: 30px;
 }
 
-.info-header::after
-{
+.info-header::after {
     position: absolute;
     top: 32px;
     left: -24px;
@@ -429,8 +426,7 @@ button:focus
     background: url('./images/lines.png') no-repeat;
 }
 
-.data
-{
+.data {
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
@@ -440,10 +436,7 @@ button:focus
     color: #878787;
 }
 
-
-
-.new-pic
-{
+.new-pic {
     width: 182px;
     height: 181px;
     margin: 11px 0;
@@ -451,8 +444,7 @@ button:focus
     outline: 8px solid #f1f1f1;
 }
 
-.description
-{
+.description {
     font-family: Arial, sans-serif;
     font-size: 14px;
 
@@ -461,17 +453,14 @@ button:focus
     color: #221f1b;
 }
 
-
-.article
-{
+.article {
     display: inline-block;
 
     width: 688px;
     margin-left: 47px;
 }
 
-.article p
-{
+.article p {
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -479,8 +468,7 @@ button:focus
     margin: 21px 0 20px;
 }
 
-.article li
-{
+.article li {
     font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
@@ -492,8 +480,7 @@ button:focus
     list-style-type: none;
 }
 
-.article li::before
-{
+.article li::before {
     position: absolute;
     top: 5px;
     left: -35px;
@@ -508,18 +495,18 @@ button:focus
     border-radius: 50%;
 }
 
-h1
-{
+h1 {
+    font-family: Arial, sans-serif;
+    font-size: 30px;
+
     margin: 10px 0 25px;
 
     text-transform: uppercase;
-
-    line-height: 29px;
 }
 
-h2
-{
+h2 {
     font-family: Arial, sans-serif;
+    font-size: 20px;
     font-weight: bold;
 
     margin-bottom: 22px;
@@ -527,35 +514,72 @@ h2
     text-transform: uppercase;
 
     color: #f8c300;
-
-    line-height: 29px;
 }
 
-h3
-{
+h3 {
+    font-family: Arial, sans-serif;
+    font-size: 14px;
+    font-weight: bold;
+
     margin-bottom: 22px;
 }
 
-.sign
-{
+.sign {
     font-family: Arial, sans-serif;
     font-size: 14px;
     font-style: italic;
 }
 
+.bottom {
+    font-size: 0;
+}
+
+.bottom-info {
+    padding-bottom: 35px;
+
+    background-color: #383431;
+}
+
+.social-net {
+    display: inline-block;
+
+    margin: 95px 0 0 45px;
+
+    vertical-align: top;
+}
+
+.social-net li {
+    display: inline-block;
+
+    margin-right: 30px;
+}
+
+.develop {
+    font-family: Arial, sans-serif;
+    font-size: 15px;
+
+    display: inline-block;
+
+    margin: 97px 0 0 15px;
+
+    vertical-align: top;
+
+    color: #c6c6c6;
+}
+
+.develop a {
+    color: #fff;
+}
 
 
 
-
-.jcarousel
-{
+.jcarousel {
     position: relative;
 
     overflow: hidden;
 }
 
-.jcarousel ul
-{
+.jcarousel ul {
     position: relative;
 
     width: 20000em;
@@ -565,7 +589,6 @@ h3
     list-style: none;
 }
 
-.jcarousel li
-{
+.jcarousel li {
     float: left;
 }
