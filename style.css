@@ -28,6 +28,7 @@ a:hover {
 
     width: 960px;
     margin: 0 auto;
+    overflow: hidden;
 }
 
 .logo {
@@ -244,6 +245,7 @@ button a {
 
     white-space: nowrap;
     text-decoration: none;
+    cursor: pointer;
 
     color: #f8c300;
 }
@@ -260,6 +262,7 @@ button a {
 
 .menu li:hover {
     background-color: #221f1b;
+    cursor: pointer;
 }
 
 .slider__list li {
@@ -339,6 +342,10 @@ button a {
     width: 220px;
     height: 170px;
     margin: 20px 26px 23px 0;
+}
+
+.service a {
+    text-decoration: none;
 }
 
 .service:last-child {
@@ -426,6 +433,10 @@ button a {
     background: url('./images/lines.png') no-repeat;
 }
 
+.news-topic {
+    color: #1351b9;
+}
+
 .data {
     font-family: Arial, sans-serif;
     font-size: 14px;
@@ -458,6 +469,10 @@ button a {
 
     width: 688px;
     margin-left: 47px;
+}
+
+.article a {
+    color: #1351b9;
 }
 
 .article p {
