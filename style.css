@@ -5,7 +5,13 @@
 }
 
 body {
+    font-family: Arial, sans-serif;
+
     background-color: #f3f3f3;
+}
+
+a {
+    text-decoration: none;
 }
 
 p,
@@ -13,6 +19,11 @@ h1,
 h2,
 h3 {
     margin: 0;
+}
+
+.article a,
+.news-topic {
+    text-decoration: underline #1351b9;
 }
 
 a:active,
@@ -55,8 +66,6 @@ a:hover {
 }
 
 .contact {
-    font-family: Arial, sans-serif;
-
     display: inline-block;
 
     vertical-align: top;
@@ -76,8 +85,16 @@ a:hover {
     color: #f8c300;
 }
 
+.contact_bottom a {
+    color: #f8c300;
+}
+
 .phone {
     font-size: 30px;
+}
+
+.contact_top a {
+    color: #221f1b;
 }
 
 .address {
@@ -85,7 +102,6 @@ a:hover {
 }
 
 .theme {
-    font-family: Arial, sans-serif;
     font-size: 15px;
 
     margin-bottom: 25px;
@@ -100,7 +116,6 @@ button a {
 }
 
 .btn {
-    font-family: Arial, sans-serif;
     font-size: 17px;
 
     position: relative;
@@ -132,10 +147,11 @@ button a {
 }
 
 .line {
+    overflow: hidden;
+
     box-sizing: border-box;
     width: 100%;
     height: 50px;
-    overflow: hidden;
 }
 
 .top_line {
@@ -144,32 +160,29 @@ button a {
 
 .left_line {
     position: absolute;
-    top: 0;
     right: 100%;
 
     box-sizing: border-box;
     width: 100vh;
+
+    background-color: #f8c300;
+}
+
+.left_line_header {
+    top: 0;
+
     height: 49px;
     margin-right: -34px;
-
-    background-color: #f8c300;
 }
 
-.left_line_bottom {
-    position: absolute;
+.left_line_footer {
     bottom: 0;
 
-    box-sizing: border-box;
-    width: 100vh;
     height: 40px;
-
-    right: 100%;
     margin-right: -165px;
-
-    background-color: #f8c300;
 }
 
-.left_line::before {
+.left_line_header::before {
     position: absolute;
     top: 0;
     right: -49px;
@@ -212,7 +225,6 @@ button a {
 }
 
 .menu > li {
-    font-family: Arial, sans-serif;
     font-size: 18px;
     line-height: 49px;
 
@@ -254,9 +266,9 @@ button a {
 .submenu a {
     font-size: 14px;
 
+    cursor: pointer;
     white-space: nowrap;
     text-decoration: none;
-    cursor: pointer;
 
     color: #f8c300;
 }
@@ -272,8 +284,9 @@ button a {
 }
 
 .menu li:hover {
-    background-color: #221f1b;
     cursor: pointer;
+
+    background-color: #221f1b;
 }
 
 .slider__list li {
@@ -368,7 +381,6 @@ button a {
 }
 
 .service_name {
-    font-family: Arial, sans-serif;
     font-size: 18px;
 
     position: relative;
@@ -420,7 +432,6 @@ button a {
 }
 
 .info-header {
-    font-family: Arial, sans-serif;
     font-size: 20px;
 
     position: relative;
@@ -447,7 +458,6 @@ button a {
 }
 
 .data {
-    font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
 
@@ -465,7 +475,6 @@ button a {
 }
 
 .description {
-    font-family: Arial, sans-serif;
     font-size: 14px;
 
     padding: 10px 0 7px;
@@ -485,7 +494,6 @@ button a {
 }
 
 .article p {
-    font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
 
@@ -493,7 +501,6 @@ button a {
 }
 
 .article li {
-    font-family: Arial, sans-serif;
     font-size: 14px;
     line-height: 20px;
 
@@ -520,7 +527,6 @@ button a {
 }
 
 h1 {
-    font-family: Arial, sans-serif;
     font-size: 30px;
 
     margin: 10px 0 25px;
@@ -529,7 +535,6 @@ h1 {
 }
 
 h2 {
-    font-family: Arial, sans-serif;
     font-size: 20px;
     font-weight: bold;
 
@@ -541,7 +546,6 @@ h2 {
 }
 
 h3 {
-    font-family: Arial, sans-serif;
     font-size: 14px;
     font-weight: bold;
 
@@ -549,7 +553,6 @@ h3 {
 }
 
 .sign {
-    font-family: Arial, sans-serif;
     font-size: 14px;
     font-style: italic;
 }
@@ -583,7 +586,6 @@ h3 {
 }
 
 .develop {
-    font-family: Arial, sans-serif;
     font-size: 15px;
 
     display: inline-block;
