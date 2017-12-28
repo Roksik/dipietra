@@ -160,8 +160,11 @@ button a {
     bottom: 0;
 
     box-sizing: border-box;
-    width: 100%;
+    width: 100vh;
     height: 40px;
+
+    right: 100%;
+    margin-right: -165px;
 
     background-color: #f8c300;
 }
@@ -559,6 +562,10 @@ h3 {
     padding-bottom: 35px;
 
     background-color: #383431;
+}
+
+.line_footer {
+    height: 47px;
 }
 
 .social-net {
