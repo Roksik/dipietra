@@ -49,18 +49,25 @@ a:hover {
     background: #fff;
 }
 
+.top__content {
+    margin-left: 20px;
+}
+
 .logo {
     display: inline-block;
 
+    margin-top: 21px;
+}
+
+.logo_top {
     width: 201px;
     height: 209px;
-    margin-top: 21px;
 }
 
 .block {
     display: inline-block;
 
-    margin: 39px 0 0 30px;
+    margin: 36px 0 0 26px;
 
     vertical-align: top;
 }
@@ -74,7 +81,8 @@ a:hover {
 .contact_top {
     float: right;
 
-    margin-top: 39px;
+    margin-top: 30px;
+    position: relative;
 
     color: #221f1b;
 }
@@ -99,6 +107,7 @@ a:hover {
 
 .address {
     font-size: 15px;
+    padding-top: 6px;
 }
 
 .theme {
@@ -123,7 +132,8 @@ button a {
     box-sizing: border-box;
     width: 227px;
     height: 44px;
-    padding: 6px 0 0 32px;
+    margin: -2px 0 0 -2px;
+    padding-left: 32px;
 
     text-align: center;
 
@@ -134,7 +144,7 @@ button a {
 
 .btn::before {
     position: absolute;
-    top: 14px;
+    top: 10px;
     left: 32px;
 
     box-sizing: border-box;
@@ -151,11 +161,11 @@ button a {
 
     box-sizing: border-box;
     width: 100%;
-    height: 50px;
+    height: 49px;
 }
 
 .top_line {
-    margin-top: -54px;
+    margin-top: -53px;
 }
 
 .left_line {
@@ -172,14 +182,14 @@ button a {
     top: 0;
 
     height: 49px;
-    margin-right: -34px;
+    margin-right: -54px;
 }
 
 .left_line_footer {
     bottom: 0;
 
     height: 40px;
-    margin-right: -165px;
+    margin-right: -185px;
 }
 
 .left_line_header::before {
@@ -243,7 +253,7 @@ button a {
     position: relative;
     z-index: 1;
 
-    margin-left: 165px;
+    margin-left: 185px;
     padding-left: 50px;
 
     background-color: #383431;
@@ -296,7 +306,7 @@ button a {
 .slider {
     position: relative;
 
-    margin-top: 18px;
+    margin-top: 17px;
 }
 
 .slider__prev,
@@ -309,15 +319,19 @@ button a {
     border: none;
 }
 
+.slider__list-item {
+    height: 365px;
+}
+
 .slider__prev {
-    top: 150px;
+    top: 138px;
     left: -45px;
 
     background: url('./images/arrow_left.png') no-repeat;
 }
 
 .slider__next {
-    top: 150px;
+    top: 138px;
     right: -45px;
 
     background: url('./images/arrow_right.png') no-repeat;
@@ -381,13 +395,12 @@ button a {
 }
 
 .service_name {
-    font-size: 18px;
+    font-size: 20px;
 
     position: relative;
     z-index: 1;
 
     margin-top: -30px;
-    padding-right: 26px;
 
     text-align: center;
 
@@ -416,13 +429,14 @@ button a {
     display: inline-block;
 
     width: 219px;
+    padding-bottom: 18px;
 
     vertical-align: top;
 }
 
 .info_first,
 .info_second {
-    padding: 15px 18px;
+    padding: 15px 18px 40px;
 
     background-color: #fff;
 }
@@ -431,17 +445,22 @@ button a {
     margin-bottom: 30px;
 }
 
+.info_second {
+    padding-bottom: 15px;
+}
+
 .info-header {
     font-size: 20px;
 
     position: relative;
 
-    padding-bottom: 30px;
+    margin-top: -2px;
+    padding-bottom: 26px;
 }
 
 .info-header::after {
     position: absolute;
-    top: 32px;
+    top: 34px;
     left: -24px;
 
     box-sizing: border-box;
@@ -454,6 +473,8 @@ button a {
 }
 
 .news-topic {
+    font-size: 14px;
+
     color: #1351b9;
 }
 
@@ -461,15 +482,15 @@ button a {
     font-size: 14px;
     font-weight: bold;
 
-    margin: 30px 0 16px 0;
+    margin: 28px 0 8px 0;
 
     color: #878787;
 }
 
-.new-pic {
+.news-pic {
     width: 182px;
     height: 181px;
-    margin: 11px 0;
+    margin: 20px 0 10px;
 
     outline: 8px solid #f1f1f1;
 }
@@ -477,7 +498,7 @@ button a {
 .description {
     font-size: 14px;
 
-    padding: 10px 0 7px;
+    padding: 10px 0 0;
 
     color: #221f1b;
 }
@@ -485,8 +506,8 @@ button a {
 .article {
     display: inline-block;
 
-    width: 688px;
-    margin-left: 47px;
+    width: 691px;
+    margin-left: 45px;
 }
 
 .article a {
@@ -500,13 +521,17 @@ button a {
     margin: 21px 0 20px;
 }
 
+.article ul {
+    margin-top: -5px;
+}
+
 .article li {
     font-size: 14px;
     line-height: 20px;
 
     position: relative;
 
-    margin: 0 0 14px 35px;
+    margin: 0 0 8px 35px;
 
     list-style-type: none;
 }
@@ -529,7 +554,7 @@ button a {
 h1 {
     font-size: 30px;
 
-    margin: 10px 0 25px;
+    margin: 10px 0 35px;
 
     text-transform: uppercase;
 }
@@ -539,6 +564,7 @@ h2 {
     font-weight: bold;
 
     margin-bottom: 22px;
+    padding-top: 5px;
 
     text-transform: uppercase;
 
@@ -555,6 +581,8 @@ h3 {
 .sign {
     font-size: 14px;
     font-style: italic;
+
+    padding-top: 20px;
 }
 
 .bottom {
@@ -571,10 +599,16 @@ h3 {
     height: 47px;
 }
 
+.logo_bottom {
+    width: 165px;
+    height: 173px;
+    margin: 28px 0 0 36px;
+}
+
 .social-net {
     display: inline-block;
 
-    margin: 95px 0 0 45px;
+    margin: 92px 0 0 33px;
 
     vertical-align: top;
 }
@@ -590,7 +624,7 @@ h3 {
 
     display: inline-block;
 
-    margin: 97px 0 0 15px;
+    margin: 93px 0 0 15px;
 
     vertical-align: top;
 
@@ -599,6 +633,7 @@ h3 {
 
 .develop a {
     color: #fff;
+    text-decoration: underline #fff;
 }
 
 
