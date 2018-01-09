@@ -75,8 +75,6 @@ a:hover {
 .contact {
     display: inline-block;
 
-    width: 213px;
-
     vertical-align: top;
 }
 
@@ -104,6 +102,10 @@ a:hover {
     font-size: 30px;
 }
 
+.phone a {
+    display: block;
+ }
+
 .contact_top a {
     color: #221f1b;
 }
@@ -112,6 +114,10 @@ a:hover {
     font-size: 15px;
 
     padding-top: 6px;
+}
+
+.address a {
+    display: block;
 }
 
 .theme {
