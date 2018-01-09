@@ -254,7 +254,7 @@ button a {
     z-index: 1;
 
     margin-left: 185px;
-    padding-left: 50px;
+    padding-left: 45px;
 
     background-color: #383431;
 }
@@ -446,7 +446,7 @@ button a {
 }
 
 .info_second {
-    padding-bottom: 15px;
+    padding-bottom: 2px;
 }
 
 .info-header {
@@ -497,6 +497,7 @@ button a {
 
 .description {
     font-size: 14px;
+    line-height: 20px;
 
     padding: 10px 0 0;
 
@@ -527,7 +528,7 @@ button a {
 
 .article li {
     font-size: 14px;
-    line-height: 20px;
+    line-height: 21px;
 
     position: relative;
 
@@ -554,7 +555,7 @@ button a {
 h1 {
     font-size: 30px;
 
-    margin: 10px 0 35px;
+    margin: 10px 0 32px;
 
     text-transform: uppercase;
 }
